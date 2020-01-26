@@ -1,0 +1,61 @@
+body { 
+	font-size: 14px; 
+	padding: 1em;
+}
+
+object { width:12em; }
+
+.sitecon{
+	background-color: #CEFFFA 
+}
+
+.svg-image:hover {
+  filter: grayscale(50%) sepia(1) hue-rotate(200deg);
+}
+
+.svg-image{
+	cursor: pointer;
+}
+ 
+.headertext {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #19857A;
+	text-align:center;
+   	width: 100%;
+   	padding: 2em;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #858887;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #19857A;
+	font-size: 15px;
+	text-align: center;
+}
+
+.svgcon {
+	padding: 6em;
+	display: flex;
+	flex-direction: block;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.wrapper > * {pointer-events:none;} /* block mouse on element children 
+* means select everything, > means all that is the children of this class */
